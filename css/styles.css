@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111111;
+}
+.navbar{
+    background-color: #111111;
+}
+
+.navbar .navbar-brand{
+    opacity: 0.8;
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .navbar-brand:hover{
+    color: #FAFAFA;
+    opacity: 1;
+}
+
+.navbar .navbar-nav .nav-link{
+    opacity: 0.8;
+    color: #F5F5F7;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #FAFAFA;
+    opacity: 1;
+}
+
+.landing-sec{
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.landing-sec h3{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.landing-sec h1{
+    color: #FAFAFA;
+    font-size: 92px;
+    font-weight: 700;
+}
+
+.landing-sec h1 span{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-sec p{
+    color: #A1A1A1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.landing-sec .btn{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    color: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+}
+
+.about-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.about-sec h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.about-sec h3{
+    color: #15D7C8;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.about-sec h2{
+    color: #F9F9F9;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.about-sec p{
+    color: #F9F9F9;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.about-sec table td{
+    color: #F9F9F9;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-sec table td span{
+    color: #15D7C8;
+    
+}
+.about-sec .btn{
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    color: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+}
+
+
+.timeline-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.timeline-sec .heading h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.timeline-sec .content .verticalLine{
+    border-left: 1px solid #DEE2E6!important;
+    height: 55px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.timeline-sec .content .badgeEle{
+    border-radius: 100%;
+    border: 2px solid #15D7C8;
+    height: 25px;
+    width: 25px;
+}
+.timeline-sec .content .card{
+    background-color: #1A1A1A;
+    margin-left: -50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.timeline-sec .content .card .card-body h5{
+    color: #15D7C8;
+    font-size: 15px;
+}
+.timeline-sec .content .card .card-body h4{
+    color: #F9F9F9;
+    font-size: 15px;
+}
+.timeline-sec .content .card .card-body p{
+    color: #A1A1A1;
+    font-size: 16px;
+}
+
+
+.project-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.project-sec .heading h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.project-sec .content .card{
+    background-color: #1A1A1A;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.project-sec .content .card h5{
+    color: #15D7C8;
+    font-size: 15px;
+}
+.project-sec .content .card h3{
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.project-sec .content .card i{
+    color: #F9F9F9;
+    font-size: 20px;
+}
+.project-sec .content .card i:hover{
+    color: #15D7C8;
+    opacity: 1;
+}
+.project-sec .content .card p{
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.project-sec .content .card .badge{
+    background-color: #15D7C8;
+    color: #1A1A1A;
+    margin-right: 5px;
+}
+
+.blog-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.blog-sec .heading h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.blog-sec .mainblogSec{
+    padding-top: 20px;
+}
+.blog-sec .img-hover-zoom{
+    height: max-content;
+    overflow: hidden;
+}
+.blog-sec .img-hover-zoom img {
+    transition: transform 0.5s ease;
+    height: auto;
+    width: 100%;
+  }
+.blog-sec .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+.blog-sec .mainblogSec a, 
+.blog-sec .oldPost a,
+.blogDetailed .recentPost a{
+    text-decoration: none;
+}
+.blog-sec .mainblogSec .latestPost h5, 
+.blog-sec .oldPost h5{
+    color: #15D7C8;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.blog-sec .mainblogSec .latestPost h1, 
+.blog-sec .oldPost h1{
+    color: #FAFAFA;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.blog-sec .mainblogSec .latestPost p, 
+.blog-sec .oldPost p{
+    color: #F9F9F9;
+    font-size: 15px;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.blog-sec .mainblogSec .latestPost .authorDetails img, 
+.blog-sec .oldPost .authorDetails img{
+    width: 7%;
+    margin-right: 20px;
+}
+.blog-sec .mainblogSec .latestPost .authorDetails h3, 
+.blog-sec .oldPost .authorDetails h3{
+    color: #F9F9F9;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+.blog-sec .mainblogSec .recentPost .d-flex, 
+.blogDetailed .recentPost .d-flex{
+    padding-bottom: 50px;
+}
+.blog-sec .mainblogSec .recentPost .recentpostDetails, 
+.blogDetailed .recentPost .recentpostDetails{
+    padding-left: 20px;
+}
+.blog-sec .mainblogSec .recentPost .recentpostDetails h5, 
+.blogDetailed .recentPost .recentpostDetails h5{
+    color: #15D7C8;
+    font-size: 15px;
+}
+.blog-sec .mainblogSec .recentPost .recentpostDetails h1, 
+.blogDetailed .recentPost .recentpostDetails h1{
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog-sec .mainblogSec .recentPost .recentpostDetails p, 
+.blogDetailed .recentPost .recentpostDetails p{
+    color: #F9F9F9;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.blog-sec .mainblogSec .recentPost .recentpostDetails h3, 
+.blogDetailed .recentPost .recentpostDetails h3{
+    color: #F9F9F9;
+    font-size: 12px;
+    font-weight: 600;
+}
+.blog-sec hr{
+    border: 1px solid #F9F9F9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.blogDetailed .card{
+    background-color: #1A1A1A;
+} 
+.blogDetailed .card .card-body{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.blogDetailed .card .card-body .authorDetails img{
+    width: 7%;
+    margin-right: 20px;
+}
+.blogDetailed .card .card-body .authorDetails h3{
+    color: #F9F9F9;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.blogDetailed .card .card-body .title h1{
+    color: #FAFAFA;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.blogDetailed .card .card-body .category h5{
+    color: #15D7C8;
+    font-size: 15px;
+}
+.blogDetailed .card .card-body .content{
+    margin-top: 30px;
+}
+.blogDetailed .card .card-body .content p{
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blogDetailed .card .card-body .content h2{
+    color: #F9F9F9;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.blogDetailed .card .card-body .content ul li{
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.contact-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.contact-sec h1{
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.contact-sec .form-sec form{
+    margin-top: 50px;
+}
+.contact-sec .form-sec form .form-control{
+    margin-bottom: 20px;
+}
+.contact-sec .form-sec form input{
+    color: #F9F9F9;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.contact-sec .form-sec form input:focus,
+.contact-sec .form-sec form textarea:focus{
+    border: 1px solid #15D7C8;
+    color: #F9F9F9;
+}
+.contact-sec .form-sec form input::placeholder,
+.contact-sec .form-sec form textarea::placeholder{
+    color: #A1A1A1;
+    opacity: 0.8;
+}
+.contact-sec .form-sec form textarea{
+    color: #F9F9F9;
+    background-color: transparent;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.contact-sec .form-sec form button{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(13, 138, 221), rgb(21, 215, 200));
+    border: none;
+    font-weight: 600;
+}
+.contact-sec .form-sec form .outputMessage{
+    margin-bottom: 80px;
+}
+.contact-sec .form-sec form .success{
+    color: aquamarine;
+}
+.contact-sec .form-sec form .fail{
+    color: rgb(255, 127, 127);
+}
+
+
+.footer h1{
+    color: #F9F9F9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer i{
+    color: #A1A1A1;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer i:hover{
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.footer p{
+    color: #F9F9F9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px){
+    .blog-sec .oldPost h3{
+        margin-bottom: 2px;
+    }
+    .blog-sec .oldPost .authorDetails img{
+        width: 8%;
+    }
+    .blog-sec .latestPost .authorDetails img{
+        width: 8%;
+    }
+}
+@media (max-width: 992px){
+    .navbar button{
+        border: none;
+    }
+    .navbar button:focus{
+        box-shadow: none;
+    }
+    .navbar button .material-symbols-outlined{
+        font-size: 40px;
+        outline: none;
+        color:#FAFAFA;
+    }
+    .landing-sec h3{
+        font-size: 18px;
+    }
+    .landing-sec h1{
+        font-size: 72px;
+    }
+    .landing-sec p{
+        font-size: 15px;
+    }
+    .blog-sec .mainblogSec .recentPost{
+        padding-top: 50px;
+    }
+    .blog-sec .oldPost .oldPost{
+        padding-top: 20px;
+    }
+    .blog-sec .mainblogSec .latestPost .authorDetails h3, 
+    .blog-sec .oldPost .authorDetails h3{
+        margin-top: 20px;
+    }
+    .blogDetailed .recentPost{
+        margin-top: 50px;
+    }
+    .blog-sec .latestPost .authorDetails img{
+        width: 8%;
+    }
+}
+
+@media (max-width: 576px){
+    .about-sec{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+    .about-sec .text-center{
+        padding-top: 50px;
+    }
+    .timeline-sec{
+        padding-left: 20px;
+    }
+    .timeline-sec .content .verticalLine,
+    .timeline-sec .content .badgeEle
+    {
+        display: none;
+    }
+    .timeline-sec .content .card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .project-sec {
+        padding-left: 20px;
+    }
+    .blog-sec{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+    .blog-sec .mainblogSec .latestPost h1,
+    .blog-sec .oldPost h1{
+        font-size: 30px;
+    }
+    .blog-sec .mainblogSec .latestPost .authorDetails img, 
+    .blog-sec .oldPost .authorDetails img,
+    .blogDetailed .card .card-body .authorDetails img{
+    width: 10%;
+    }
+    .blogDetailed .card .card-body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .blogDetailed .card .card-body .authorDetails h3{
+        font-size: 10px;
+    }
+    .blogDetailed .card .card-body .title h1{
+        font-size: 30px;
+    }
+    .contact-sec{
+        padding-left: 35px;
+    }
+    .contact-sec .heading h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 489px){
+    .landing-sec h3{
+        font-size: 15px;
+    }
+    .landing-sec h1{
+        font-size: 42px;
+    }
+    .landing-sec p{
+        font-size: 13px;
+    }
+    .footer i{
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-sec .mainblogSec .latestPost .authorDetails h3, 
+    .blog-sec .oldPost .authorDetails h3{
+    margin-top: 10px;
+    }
+}
+
